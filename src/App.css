@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+
+.App-inner {
+  background-color: rgb(246, 237, 255);
+  /* background-color: aqua; */
+  font-family: manrope;
+}
+.logo {
+  height: 30px;
+  width: 150px;
+}
+
+.Navbar-outer {
+  display: flex ;
+  padding: 0.005%;
+  justify-content: space-between;
+}
+
+.navbar-inner1 {
+  display: flex;
+  padding: 1%;
+  justify-content: space-evenly;
+}
+
+.navbar-btn:hover {
+  transform: scale(1.05);
+}
+
+.login {
+  margin-right:10%;
+}
+
+.login:hover {
+  transform: scale(1.05);
+}
+
+.signup {
+  margin-right: 30%;
+}
+
+.signup:hover {
+  transform: scale(1.05);
+}
+
+.navbar-inner2 {
+  display: flex;
+  padding: 1%;
+  justify-content: space-evenly;
+}
+.nav-accordion {
+  color: black;
+  font-weight: 630;
+}
+
+.menu-buttons-1{
+  margin-left: 10%;
+}
+.menu-buttons-2{
+  margin-left: 10%;
+}
+
+.Title-outer {
+  display: flex;
+  padding: 3%;
+  justify-content: space-between;
+  margin-left: 6%;
+  margin-right: 6%;
+  border-color: black;
+  align-items: center;
+}
+
+.title-name {
+  font-size: 300%;
+  font-weight: 1000;
+  font-family: manrope;
+}
+
+.Filter-outer {
+  display: flex ;
+  padding: 0.5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+  justify-content: space-evenly;
+
+}
+
+.vl {
+  border-left: 3px solid rgb(251, 235, 255);
+  height: 50px;
+}
+
+.filter-title {
+  font-family: manrope;
+  font-size: 90%;
+  font-weight: 800;
+  color: rgb(152, 152, 152);
+}
+
+.filter-price {
+  font-size: 20px;
+  font-weight: 1000 !important;
+}
+.search-btn {
+  padding: 10%
+}
+
+.search-btn:hover {
+  transform: scale(1.05);
+}
+
+.rent_button {
+  color: black;
+}
+
+.Result-outer {
+  /* height: 1000px; */
+  margin: 0;
+  margin-top: 3%;
+  margin-right: 0;
+  width: 100%;
+  /* margin-left: 15%; */
+  padding-bottom: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.property-component {
+  background-color: white;
+  margin-left: 3%;
+  border-radius: 10px;
+  /* padding: 1%; */
+}
+
+.property-component:hover {
+  transition: scale(1.5);
+}
+
+.data-details {
+  display: flex;
+  justify-content: space-between;
+}
+.property-component-display {
+  height: 180px;
+  max-width: 100;
+}
+
+img {
+  max-height: 180px;
+  width: 600px;
+  border-radius: 10px;
+}
+
+
+.data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  padding: 1%;
+}
+
+.price1 {
+  color: rgb(125, 2, 186);
+  font-size: 35px;
+  font-weight: 600;
+}
+.month {
+  color: rgb(137, 137, 137);
+  font-weight: 500;
+}
+.data-title {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 2%;
+}
+.data-address {
+  color: rgb(137, 137, 137);
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 2%;
+  padding: 2%;
+}
+
+.data-details {
+  color: rgb(137, 137, 137);
+  font-size: 15px;
+  font-weight: 500;
+  padding: 2%;
+}
+.Result-inner {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  row-gap: 5%;
+  column-gap: 2.5%;
+  width: 80%;
+}
+
+.Textarea1 {
+  font-size: 20px;
+  font-weight: 1000 !important;
+  width: 200px;
+}
+
+.Textarea2 {
+  font-size: 20px;
+  font-weight: 1000 !important;
+  width: 250px;
+}
+
+.img-bed {
+  width: 20px;
+}
+
+.data-details-subsection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-heart {
+  width: 50px;
+  height: 50px;
+}
+
+.ranges {
+  font-weight: 800;
+}
+
+.Search-bar {
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid black;
+  font-size: 20px;
+  font-weight: 1000 !important;
+}
